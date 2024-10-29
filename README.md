@@ -1,9 +1,11 @@
+<h1 align="center">💻 Code-Sync - Real-Time Collaborative Code Editor</h1>
+<p align="center">A collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.</p>
 
-# Code-Sync
+<div align="center">
+    <img src="preview.png" alt="Code-Sync Preview" width="80%">
+</div>
 
-A collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
 
-[![GitHub contributors](https://img.shields.io/github/contributors/sahilatahar/Code-Sync)](https://github.com/sahilatahar/Code-Sync/graphs/contributors) [![GitHub stars](https://img.shields.io/github/stars/sahilatahar/Code-Sync)](https://github.com/sahilatahar/Code-Sync/stargazers) [![GitHub issues](https://img.shields.io/github/issues/sahilatahar/Code-Sync)](https://github.com/sahilatahar/Code-Sync/issues) [![GitHub license](https://img.shields.io/github/license/sahilatahar/Code-Sync)](https://github.com/sahilatahar/Code-Sync/blob/main/LICENSE)
 
 ## 🔮 Features
 - 💻 Real-time collaboration on code editing across multiple files
@@ -22,7 +24,7 @@ A collaborative, real-time code editor where users can seamlessly code together.
 - 🔠 Option to change font size and font family
 - 🎨 Multiple themes for a personalized coding experience
 - 🎨 Collaborative Drawing: Allowing real-time collaborative sketching
-- 🚀 **Live Preview**: View the live preview of the project [here](code-sync-live.vercel.app).
+
 
 ## 💻 Tech Stack
 - **Frontend**: React, TypeScript, React Router, Tailwind CSS
@@ -76,16 +78,6 @@ We welcome contributions to make Code-Sync even better! Whether you're reporting
 ## 🌟 Support Us
 If you find this helpful or valuable, please consider 🌟 starring the repository. It helps us gain visibility and encourages further development. We appreciate your support!
 
-
-
-## 🌟 Appreciation for Resources
-Special thanks to **EMKC** for providing the Piston API, enabling code execution. For more information, visit the following links:
-- [Piston Repository](https://github.com/engineer-man/piston)
-- [Piston Docs](https://engineer-man.github.io/piston-docs/)
-
-Also, huge gratitude to **Tldraw** contributors for their amazing library. For more information about Tldraw, please visit:
-- [Tldraw Repository](https://github.com/tldraw/tldraw)
-- [Tldraw Documentation](https://docs.tldraw.com/)
 
 ## ✍️ About Developer
 **Anushka Rakshe**
