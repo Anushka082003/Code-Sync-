@@ -66,6 +66,10 @@
 
 6. **Access the application**: Open a browser and go to [http://localhost:5173/](http://localhost:5173/)
 
+   ## 🚀 Live Preview
+
+You can view the live preview of the project [here](https://code-sync-live.vercel.app/).
+
 ## 🔮 Features for Next Release
 - **Admin Permission**: Implement an admin permission system to manage user access levels and control platform features.
 
