@@ -1,129 +1,93 @@
 
-<h1 align="center">💻 Code-Sync - Real-Time Collaborative Code Editor</h1>
-<p align="center">A collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.</p>
+# Code-Sync
 
-<div align="center">
-    <img src="preview.png" alt="Code-Sync Preview" width="80%">
-</div>
+A collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
 
----
+[![GitHub contributors](https://img.shields.io/github/contributors/sahilatahar/Code-Sync)](https://github.com/sahilatahar/Code-Sync/graphs/contributors) [![GitHub stars](https://img.shields.io/github/stars/sahilatahar/Code-Sync)](https://github.com/sahilatahar/Code-Sync/stargazers) [![GitHub issues](https://img.shields.io/github/issues/sahilatahar/Code-Sync)](https://github.com/sahilatahar/Code-Sync/issues) [![GitHub license](https://img.shields.io/github/license/sahilatahar/Code-Sync)](https://github.com/sahilatahar/Code-Sync/blob/main/LICENSE)
 
-<h2>🔮 Features</h2>
+## 🔮 Features
+- 💻 Real-time collaboration on code editing across multiple files
+- 📁 Create, open, edit, save, delete, and organize files and folders
+- 💾 Option to download the entire codebase as a zip file
+- 🚀 Unique room generation with room ID for collaboration
+- 🌍 Comprehensive language support for versatile programming
+- 🌈 Syntax highlighting for various file types with auto-language detection
+- 🚀 Code Execution: Users can execute code directly within the collaboration environment for instant feedback and results
+- ⏱️ Instant updates and synchronization of code changes across all files and folders
+- 📣 Notifications for user join and leave events
+- 👥 User presence list of users currently in the collaboration session, including online/offline status indicators
+- 💬 Group chatting for real-time communication while coding
+- 🎩 Real-time tooltip displaying users currently editing
+- 💡 Auto-suggestions based on the programming language
+- 🔠 Option to change font size and font family
+- 🎨 Multiple themes for a personalized coding experience
+- 🎨 Collaborative Drawing: Allowing real-time collaborative sketching
+- 🚀 **Live Preview**: View the live preview of the project [here](code-sync-live.vercel.app).
 
-<ul>
-    <li><b>Real-time collaboration</b> on code editing across multiple files.</li>
-    <li><b>File Management:</b> Create, open, edit, save, delete, and organize files and folders.</li>
-    <li><b>Downloadable Codebase:</b> Option to download the entire codebase as a zip file.</li>
-    <li><b>Unique Room Generation:</b> Generates a unique room ID for collaboration.</li>
-    <li><b>Comprehensive Language Support:</b> Supports multiple programming languages.</li>
-    <li><b>Syntax Highlighting:</b> Auto-detects language type and provides syntax highlighting.</li>
-    <li><b>Code Execution:</b> Users can execute code within the editor for instant feedback.</li>
-    <li><b>Instant Updates:</b> Synchronizes code changes across files and folders.</li>
-    <li><b>User Notifications:</b> Displays notifications when users join or leave.</li>
-    <li><b>User Presence List:</b> Shows the list of users in the session with online/offline status.</li>
-    <li><b>Real-time Group Chat:</b> Users can chat in real-time while coding.</li>
-    <li><b>Editing Tooltips:</b> Displays real-time tooltips indicating users editing code.</li>
-    <li><b>Auto-suggestion:</b> Offers coding suggestions based on the programming language.</li>
-    <li><b>Customization Options:</b> Ability to change font size, font family, and apply different themes.</li>
-    <li><b>Collaborative Drawing:</b> Users can draw and sketch in real-time, enhancing interactivity.</li>
-    <li><b>Live Preview:</b> Provides a live preview of the application.</li>
-</ul>
+## 💻 Tech Stack
+- **Frontend**: React, TypeScript, React Router, Tailwind CSS
+- **Backend**: Node.js, Express.js, Socket.io
+- **Deployment**: Git, GitHub, Vercel
 
-<h2>💻 Tech Stack</h2>
+## ⚙️ Installation
 
-<table>
-    <tr>
-        <td><b>Frontend</b></td>
-        <td>React, TypeScript, React Router, Tailwind CSS</td>
-    </tr>
-    <tr>
-        <td><b>Backend</b></td>
-        <td>Node.js, Express.js</td>
-    </tr>
-    <tr>
-        <td><b>Real-Time Communication</b></td>
-        <td>Socket.io</td>
-    </tr>
-    <tr>
-        <td><b>Version Control</b></td>
-        <td>Git, GitHub</td>
-    </tr>
-    <tr>
-        <td><b>Deployment</b></td>
-        <td>Vercel</td>
-    </tr>
-</table>
+1. **Fork this repository**: Click the **Fork** button in the top-right corner to fork the repository.
 
----
+2. **Clone the repository**:
+   ```bash
+   git clone https://github.com/<your-username>/Code-Sync.git
+   ```
 
-<h2>🚀 Installation</h2>
+3. **Set .env file**: Inside the `client` and `server` directories, rename `.env.example` to `.env` and set the environment variables:
+   - **Frontend**:
+     ```bash
+     VITE_BACKEND_URL=<your_server_url>
+     ```
+   - **Backend**:
+     ```bash
+     PORT=3000
+     ```
 
-<h3>1. Fork the Repository</h3>
-<p>Click the Fork button in the top-right corner of this page to fork the repository.</p>
+4. **Install dependencies**: Navigate to the frontend and backend directories separately and run:
+   ```bash
+   npm install
+   ```
 
-<h3>2. Clone the Repository</h3>
+5. **Start the frontend and backend servers**:
+   - **Frontend**:
+     ```bash
+     cd client
+     npm run dev
+     ```
+   - **Backend**:
+     ```bash
+     cd server
+     npm run dev
+     ```
 
-```bash
-git clone https://github.com/<your-username>/Code-Sync.git
-```
+6. **Access the application**: Open a browser and go to [http://localhost:5173/](http://localhost:5173/)
 
-<h3>3. Set Environment Variables</h3>
-<p>Rename the <code>.env.example</code> file to <code>.env</code> in both the client and server directories. Set the following environment variables:</p>
+## 🔮 Features for Next Release
+- **Admin Permission**: Implement an admin permission system to manage user access levels and control platform features.
 
-<b>Frontend:</b>
-```plaintext
-VITE_BACKEND_URL=<your_server_url>
-```
+## 🤝 Contribute
+We welcome contributions to make Code-Sync even better! Whether you're reporting a bug, suggesting a new feature, or fixing a typo, your input is valuable to us. Follow the contribution guidelines to get started.
 
-<b>Backend:</b>
-```plaintext
-PORT=3000
-```
-
-<h3>4. Install Dependencies</h3>
-<p>Navigate to the frontend and backend directories and install the dependencies.</p>
-
-<b>Client:</b>
-```bash
-cd client
-npm install
-```
-
-<b>Server:</b>
-```bash
-cd server
-npm install
-```
-
-<h3>5. Start the Application</h3>
-<p>Run the frontend and backend servers.</p>
-
-<b>Frontend:</b>
-```bash
-cd client
-npm run dev
-```
-
-<b>Backend:</b>
-```bash
-cd server
-npm run dev
-```
-
-<h3>6. Access the Application</h3>
-<p>Open a browser and go to <a href="http://localhost:5173/">http://localhost:5173/</a>.</p>
-
----
-
-<h2>🤝 Contribute</h2>
-<p>We welcome contributions to improve Code-Sync! Whether you're reporting a bug, suggesting a new feature, or fixing a typo, your input is valuable. Follow the contribution guidelines to get started.</p>
-
-<h2>🌟 Support Us</h2>
-<p>If you find this project helpful or valuable, please consider starring the repository. It helps us gain visibility and encourages further development. We appreciate your support!</p>
+## 🌟 Support Us
+If you find this helpful or valuable, please consider 🌟 starring the repository. It helps us gain visibility and encourages further development. We appreciate your support!
 
 
 
-<h2>✍️ About the Developer</h2>
-<p><b>Anushka Rakshe</b></p>
+## 🌟 Appreciation for Resources
+Special thanks to **EMKC** for providing the Piston API, enabling code execution. For more information, visit the following links:
+- [Piston Repository](https://github.com/engineer-man/piston)
+- [Piston Docs](https://engineer-man.github.io/piston-docs/)
 
-<p>For more projects or collaboration, feel free to reach out.</p>
+Also, huge gratitude to **Tldraw** contributors for their amazing library. For more information about Tldraw, please visit:
+- [Tldraw Repository](https://github.com/tldraw/tldraw)
+- [Tldraw Documentation](https://docs.tldraw.com/)
+
+## ✍️ About Developer
+**Anushka Rakshe**
+
+
