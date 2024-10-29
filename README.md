@@ -1,9 +1,6 @@
 <h1 align="center">💻 Code-Sync - Real-Time Collaborative Code Editor</h1>
 <p align="center">A collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.</p>
 
-<div align="center">
-    <img src="preview.png" alt="Code-Sync Preview" width="80%">
-</div>
 
 
 
